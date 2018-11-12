@@ -1,0 +1,87 @@
+#ie7 ul.social-profile li {
+	float: left;
+}
+#ie7 #header-left {
+	float: left;
+}
+#ie7 #header-menu {
+	position: relative; z-index: 99;
+}
+#ie7 #header-menu ul.menu li {
+	display: inline;
+}
+#ie7 .menu-header-container {
+	background-color: rgb(58, 61, 65);
+}
+#ie7 #header-menu ul.menu li.default-menu {
+	display: none;
+}
+#hgroup-wrap img {
+	width: auto;
+}
+.featured-image img {
+	width: auto;
+}
+.entry-content img {
+	width: auto;
+}
+img.size-full {
+	width: auto;
+}
+img.size-large {
+	width: auto;
+}
+img.wp-post-image {
+	width: auto;
+}
+#main-slider .entry-title span {
+	background: rgb(255, 255, 255); opacity: 0.7;
+}
+#main-slider .entry-content {
+	background: rgb(255, 255, 255); opacity: 0.7;
+}
+#slider-nav a {
+	background: rgb(255, 255, 255); opacity: 0.7;
+}
+#main-slider .entry-title span:hover {
+	background: rgb(255, 255, 255); opacity: 1;
+}
+#main-slider .entry-content:hover {
+	background: rgb(255, 255, 255); opacity: 1;
+}
+#slider-nav a:hover {
+	background: rgb(255, 255, 255); opacity: 1;
+}
+#controllers a {
+	background: rgb(255, 255, 255); opacity: 0.4;
+}
+#controllers a:hover {
+	background: rgb(255, 255, 255); opacity: 0.8;
+}
+#controllers a.active {
+	background: rgb(255, 255, 255); opacity: 0.8;
+}
+#hgroup-wrap a:hover img {
+	opacity: 0.9;
+}
+.featured-image a:hover img {
+	opacity: 0.9;
+}
+.entry-content a:hover img {
+	opacity: 0.9;
+}
+.comment-content a:hover img {
+	opacity: 0.9;
+}
+.widget a:hover img {
+	opacity: 0.9;
+}
+a:hover img.header-image {
+	opacity: 0.9;
+}
+.author-avatar a:hover img {
+	opacity: 0.9;
+}
+a:hover img.wp-post-image {
+	opacity: 0.9;
+}
