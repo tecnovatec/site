@@ -138,7 +138,7 @@ id="post-2">
 <H1 class="entry-title"><A title="Compañía"
 rel="bookmark">Nuestra Experiencia</A></H1></HEADER><!-- .entry-header -->		 
 <DIV class="entry-content">
-<P>Nuestros consultores cuentan con experiencia superior a 15 años, desarrollando e implementando soluciones en tecnologías de información, comunicaciones e infraestructura en reconocidas empresas.    
+<P>  Contamos con una experiencia de <label id="expYear"></label> años, desarrollando e implementando soluciones en tecnologías de información, comunicaciones e infraestructura en reconocidas empresas.    
 </P>
 <BLOCKQUOTE>
   <P>Hemos adoptado metodologías avaladas internacionales en la ejecución de proyectos y esto nos permite integrar en plazos acordados diferentes soluciones y tecnologías del mercado. Así mismo, con la aplicación de las buenas prácticas en los modelos de IT, hacemos posible afrontar grandes proyectos, mejorando los niveles de calidad e índices de satisfacción por parte de nuestros clientes. </P></BLOCKQUOTE>
@@ -235,7 +235,10 @@ id="archives-2">
 						</br>
 						 Copyright © <label id="year"></label> <A title="Tecnovatec" 
 						href="http://www.tecnovatec.com"><SPAN>Tecnovatec</SPAN></A>. All Rights Reserved.		
-						</br>  Contacto  (300) 555 6293 Bogota, Colombia.							
+						</br>  Contacto  (300) 555 6293 Bogota, Colombia.	
+
+
+						
 				</div>	 
 				
 			</DIV>
@@ -285,7 +288,10 @@ var $_Tawk_AccountKey='53617cd90d450ea727000623',$_Tawk_API={},$_Tawk_LoadStart=
 <script>
 	const d = new Date();
 	let year = d.getFullYear();
+	let createYear = 2014;
+	let expYear = d.getFullYear() - createYear;
 	document.getElementById("year").innerHTML = year;
+	document.getElementById("expYear").innerHTML = expYear;
 </script>
 
 
